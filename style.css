@@ -1,0 +1,46 @@
+h1{
+    color:#cf921f
+}
+.header{
+    background-color:#7fc451;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid#c0173c;
+    border-radius: 50px;
+}
+.menu{
+    background-color:#63d418b0;
+    display: flexbox;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.footer{
+    background-color: #63d418ef;
+    display:flex ;
+    flex-wrap: wrap;
+    border: 2px solid #c0173c;
+    border-radius: 40px;
+}
+a:link{
+    color:#0f2fe6ef
+}
+a:visited{
+    color:#0f2fe6ef
+}
+.header{
+    padding: 60px;
+    position:relative
+}
+.header p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.footer:hover p{
+    opacity: 1;
+}
+.footer:hover img{
+    transform: scale(1.5);
+}
